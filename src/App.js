@@ -38,6 +38,14 @@ class App extends React.Component {
             button > <
             /div> < /
             div >
+                <div className={classes.footer}>
+          <Typography variant="body1" component="h2">
+            Created by
+            <a className={classes.link} href="https://www.linkedin.com/in/ajay-dhangar-bb89b4227/"> Ajay Dhangar </a> -
+            <a className={classes.link} href="https://www.youtube.com/channel/UCRQBq8dfTEZfIMxmq-Ba9Tw"> Aj Zero Coding</a>
+          </Typography>
+          <img className={classes.image} src={logo} height="50px" alt="Aj Zero Coding logo" />
+        </div>
         );
     }
 }
